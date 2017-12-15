@@ -5,7 +5,7 @@ import random
 description = '''An example bot to showcase the discord.ext.commands extension
 module.
 There are a number of utility commands being showcased here.'''
-bot = commands.Bot(command_prefix='Insert Token here', description=description, owner_id=372808172051759104)
+bot = commands.Bot(command_prefix='Insert Prefix here', description=description, owner_id=372808172051759104)
 embed = discord.Embed(colour = discord.Colour(0x00c3ff))
 bot.remove_command("help")
 
